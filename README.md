@@ -9,20 +9,18 @@
 | `Client-all.jar` | X19 Service Client（`shadowJar`） |
 | `config.yml` | 客户端配置（`server` 等） |
 
-## 直链下载（将 `main` 换为你的默认分支名，一般为 `main`）
-
-把下面 URL 中的 `OWNER` 与 `REPO` 换成本仓库在 GitHub 上的路径。
+## 直链下载（本仓库）
 
 ```
-https://raw.githubusercontent.com/OWNER/REPO/main/Client-all.jar
-https://raw.githubusercontent.com/OWNER/REPO/main/config.yml
+https://raw.githubusercontent.com/SUSRDev/sakura-x19-client-dist/main/Client-all.jar
+https://raw.githubusercontent.com/SUSRDev/sakura-x19-client-dist/main/config.yml
 ```
 
 示例（curl）：
 
 ```bash
-curl -fL -o Client-all.jar "https://raw.githubusercontent.com/OWNER/REPO/main/Client-all.jar"
-curl -fL -o config.yml "https://raw.githubusercontent.com/OWNER/REPO/main/config.yml"
+curl -fL -o Client-all.jar "https://raw.githubusercontent.com/SUSRDev/sakura-x19-client-dist/main/Client-all.jar"
+curl -fL -o config.yml "https://raw.githubusercontent.com/SUSRDev/sakura-x19-client-dist/main/config.yml"
 ```
 
 更新文件时：在本仓库替换对应文件并 `git push` 即可；直链地址不变（同一分支、同一路径）。
